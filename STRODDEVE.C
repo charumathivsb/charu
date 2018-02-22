@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
               int i;
               char s[50];
               scanf("%s",&s);
@@ -14,6 +14,6 @@ int main(void) {
                 	if(i%2!=0)
                         printf("%c",s[i]);
                 }
-	// your code goes here
 	return 0;
+
 }
